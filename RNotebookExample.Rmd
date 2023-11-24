@@ -14,7 +14,7 @@ print(a)
 ``` {r load-data}
   #load tidyverse library
 library(tidyverse)
-library(markdown)
+library(rmarkdown)
 library(kableExtra)
 library(ggpubr)
 
@@ -35,7 +35,11 @@ euro_data_tbl %>%
           kable_styling(bootstrap_options = c("striped", "hover")) 
 ```
 
+does not work? 
 ```{r paged-table}
 paged_table(euro_data_tbl)
 ```
+
+ 
+
 
